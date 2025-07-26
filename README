@@ -21,7 +21,7 @@ it's executable and put it somewhere convenient, like /usr/local/bin or
   2) Run
        cpan
      at the shell.  Agree to the defaults for everything.
-     To leave cpan, type 
+     To leave cpan, type
        quit
   3) Type
     sudo cpan Term::Animation
@@ -40,6 +40,7 @@ Usage
 
 Command line arguments:
 	-c	"classic" mode, only show species from Asciiquarium 1.0
+  -S  control animation speed (default is 1.0)
 
 While running:
 	q	quit
